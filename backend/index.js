@@ -197,7 +197,7 @@ app.post('/login', async (req, res) => {
             res.json({ success: false, errors: "Wrong Email Id" });
         }
     });
-
+// creating api endpoint 
 
 app.listen(port,(error)=>{
     if(!error){
